@@ -1,0 +1,31 @@
+{
+  "name": "movies_app",
+  "version": "1.0.0",
+  "description": "",
+  "productName": "Movies Application",
+  "main": "src/main.js",
+  "homepage": "./",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "dev": "parcel src/index.html",
+    "build-prod": "parcel build src/index.html --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "framer-motion": "^11.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "prettier": "^3.0.3",
+    "process": "^0.11.10"
+  }
+}
